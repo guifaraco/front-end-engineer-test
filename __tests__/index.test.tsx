@@ -1,5 +1,5 @@
-import "@testing-library/jest-dom";
-
-test("2 + 2 = 4", () => {
-  expect(2 + 2).toBe(4);
-});
+describe('sum module') {
+  test("2 + 2 = 4", () => {
+    expect(2 + 2).toBe(4);
+  });
+}
